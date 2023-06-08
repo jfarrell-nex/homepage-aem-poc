@@ -1,0 +1,92 @@
+.section {
+    max-width: var(--max-width);
+    margin: auto;
+    height: 100px;
+    padding: 15px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightSide {
+    display: flex;
+}
+
+.oneWorldLogo {
+    margin-left: 30px;
+}
+
+.searchIcon {
+    padding: 10px;
+    margin: 10px 0px;
+    background: none;
+    border: none;
+}
+
+.searchIcon svg {
+    width: 24px;
+    height: 24px;
+
+}
+
+.login {
+    padding: 10px 0 10px 10px;
+    margin: 10px 0px;
+    background: none;
+    border: none;
+}
+
+.login svg {
+    width: 24px;
+    height: 24px;
+}
+
+.login span {
+    text-transform: uppercase;
+    color: var(--primary-text-dark-blue);
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.275rem;
+    margin: 5px 0 0 8px;
+}
+
+.navigation {
+    max-width: var(--max-width);
+    height: 44px;
+    margin: auto;
+    border-top: 1px solid #efeff0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigationLeftSide {
+    display: flex;
+}
+
+.navigationLeftSide div {
+    padding: 10px 20px;
+}
+
+.navigationLeftSide div:first-child {
+    padding-left: 0px;
+}
+
+.navigationLeftSide div a {
+    font-size: 1.125rem;
+    color: var(--primary-text-dark-blue);
+    font-weight: 400;
+    letter-spacing: .4px;
+}
+
+.navigationRightSide {
+    padding: 10px 0px;
+}
+
+.navigationRightSide img {
+    width: 18px;
+    height: 14px;
+}
+
+.footer {
+    height: 250px;
+    background-color: hsl(216, 53%, 12%)
+}
